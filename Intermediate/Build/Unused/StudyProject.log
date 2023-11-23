@@ -1,0 +1,30 @@
+﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" StudyProjectEditor Win64 Development -Project="C:\Users\Home\Documents\Unreal_Projects\StudyProject\StudyProject.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\Home\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Home\Documents\Unreal_Projects\StudyProject).
+  Invalidating makefile for StudyProjectEditor (SGameInstance.cpp.obj.response modified)
+  Parsing headers for StudyProjectEditor
+    Running Internal UnrealHeaderTool C:\Users\Home\Documents\Unreal_Projects\StudyProject\StudyProject.uproject C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\StudyProjectEditor\Development\StudyProjectEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 2 written
+  Reflection code generated for StudyProjectEditor in 2.2443724 seconds
+C:\Users\Home\Documents\Unreal_Projects\StudyProject\Source\StudyProject\Private\Examples\SFlyable.cpp(1): error : Expected SFlyable.h to be first header included.
+  Building StudyProjectEditor...
+  Using Visual Studio 2022 14.37.32825 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from StudyProject unity file: StudyProject.cpp, SUnrealObjectClass.cpp, SFlyable.cpp, SPigeon.cpp, SGameInstance.cpp
+  Determining max actions to execute in parallel (2 physical cores, 4 logical cores)
+    Executing up to 2 processes, one per physical core
+    Requested 1.5 GB free memory per action, 2.74 GB available: limiting max parallel actions to 1
+  Building 8 actions with 1 process...
+  [1/8] Compile StudyProject.init.gen.cpp
+  [2/8] Compile SFlyable.cpp
+  [3/8] Compile SPigeon.gen.cpp
+  [4/8] Compile SGameInstance.cpp
+  [5/8] Compile SPigeon.cpp
+  [6/8] Link UnrealEditor-StudyProject-0028.dll
+SPigeon.cpp.obj : error LNK2005: "public: __cdecl USPigeon::USPigeon(void)" (??0USPigeon@@QEAA@XZ)이(가) SFlyable.cpp.obj에 이미 정의되어 있습니다.
+     C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0028.suppressed.lib 라이브러리 및 C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0028.suppressed.exp 개체를 생성하고 있습니다.
+C:\Users\Home\Documents\Unreal_Projects\StudyProject\Binaries\Win64\UnrealEditor-StudyProject-0028.dll : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  [7/8] Link UnrealEditor-StudyProject-0028.lib
+SPigeon.cpp.obj : warning LNK4006: "public: __cdecl USPigeon::USPigeon(void)" (??0USPigeon@@QEAA@XZ)이(가) SFlyable.cpp.obj에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+     C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0028.lib 라이브러리 및 C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0028.exp 개체를 생성하고 있습니다.
+  [8/8] WriteMetadata StudyProjectEditor.target cancelled
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: ""C:\Program Files\Epic Games\UE_5.1\Engine\Build\BatchFiles\Build.bat" StudyProjectEditor Win64 Development -Project="C:\Users\Home\Documents\Unreal_Projects\StudyProject\StudyProject.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).
