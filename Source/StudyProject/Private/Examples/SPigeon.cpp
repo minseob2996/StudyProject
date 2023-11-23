@@ -8,6 +8,11 @@ USPigeon::USPigeon()
     ID = 0;
 }
 
+void USPigeon::Fly()
+{
+    UE_LOG(LogTemp, Log, TEXT("%s is now flying."), *Name);
+}
+
 void USPigeon::Serialize(FArchive& Ar)
 {
     Super::Serialize(Ar); //언리얼 개발자들이 만들어논거

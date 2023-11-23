@@ -1215,3 +1215,118 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.23-11.56.09:761][407]LogHotReload: New module detected: UnrealEditor-StudyProject-0024.dll
 [2023.11.23-11.57.05:118][573]LogHotReload: New module detected: UnrealEditor-StudyProject-0025.dll
 [2023.11.23-12.04.23:652][885]LogHotReload: New module detected: UnrealEditor-StudyProject-0028.dll
+[2023.11.23-12.18.47:609][493]LogHotReload: New module detected: UnrealEditor-StudyProject-0029.dll
+[2023.11.23-12.35.40:014][527]LogHotReload: New module detected: UnrealEditor-StudyProject-0031.dll
+[2023.11.23-12.35.43:769][539]LogHotReload: Starting Hot-Reload from IDE
+[2023.11.23-12.35.44:510][539]LogUObjectHash: Compacting FUObjectHashTables data took  14.39ms
+[2023.11.23-12.35.44:708][539]LogClass: UPackage /Script/StudyProject Reload.
+[2023.11.23-12.35.44:709][539]LogClass: UClass SGameInstance Reload.
+[2023.11.23-12.35.44:716][539]LogClass: UClass SPigeon Reload.
+[2023.11.23-12.35.44:721][539]LogClass: Could not find existing class SGameInstance in package /Script/StudyProject for reload, assuming new or modified class
+[2023.11.23-12.35.44:722][539]LogClass: Could not find existing class SPigeon in package /Script/StudyProject for reload, assuming new or modified class
+[2023.11.23-12.35.44:731][539]LogTemp: USGameInstance::USGameInstance() has been called.
+[2023.11.23-12.35.44:789][539]Re-instancing SPigeon after reload.
+[2023.11.23-12.35.44:839][539]Re-instancing SGameInstance after reload.
+[2023.11.23-12.35.45:319][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.11.23-12.35.45:638][539]Display: HotReload took  1.9s.
+[2023.11.23-12.35.45:639][539]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed, 3 classes unchanged, 1 scriptstruct new, 1 function remapped, 1 scriptstruct remapped
+[2023.11.23-12.35.46:019][541]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 2.036600 milleseconds to execute
+[2023.11.23-12.37.12:281][815]LogShaderCompilers: Display: ================================================
+[2023.11.23-12.37.12:281][815]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.23-12.37.12:281][815]LogShaderCompilers: Display: Total job queries 93, among them cache hits 0 (0.00%)
+[2023.11.23-12.37.12:281][815]LogShaderCompilers: Display: Tracking 93 distinct input hashes that result in 82 distinct outputs (88.17%)
+[2023.11.23-12.37.12:282][815]LogShaderCompilers: Display: RAM used: 0.35 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.09%
+[2023.11.23-12.37.12:282][815]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.23-12.37.12:282][815]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.23-12.37.12:282][815]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.11.23-12.37.12:282][815]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.23-12.37.12:282][815]LogShaderCompilers: Display: ================================================
+[2023.11.23-12.37.12:710][825]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.23-12.37.12:766][825]LogContentBundle: [Container: Example] Generating Streaming for 0 Content Bundles.
+[2023.11.23-12.37.12:789][825]LogWorldPartition: Display: GenerateStreaming started...
+[2023.11.23-12.37.12:792][825]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.11.23-12.37.12:793][825]LogWorldPartition: Display: GetPartitionedActors took 1 ms
+[2023.11.23-12.37.12:793][825]LogWorldPartition: Display: GenerateStreaming took 4 ms
+[2023.11.23-12.37.12:812][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.23-12.37.12:839][825]PIE: New page: PIE session: Example (2023. 11. 24. 오전 6:37:12)
+[2023.11.23-12.37.12:895][825]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.11.23-12.37.12:895][825]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.11.23-12.37.12:897][825]LogTemp: USGameInstance::USGameInstance() has been called.
+[2023.11.23-12.37.12:899][825]LogPlayLevel: Creating play world package: /Game/StudyProject/Levels/UEDPIE_0_Example
+[2023.11.23-12.37.12:976][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076088s)
+[2023.11.23-12.37.12:976][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StudyProject/Levels/Example.Example to /Game/StudyProject/Levels/UEDPIE_0_Example.Example (0.077380s)
+[2023.11.23-12.37.12:988][825]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.23-12.37.13:015][825]LogAIModule: Creating AISystem for world Example
+[2023.11.23-12.37.13:036][825]LogWorldPartition: ULevel::OnLevelLoaded(Example)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.11.23-12.37.13:037][825]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.11.23-12.37.13:037][825]LogWorldPartition: UWorldPartition::Initialize(Asset=Example, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.11.23-12.37.13:039][825]LogContentBundle: [Container: Example] Creating new contrainer.
+[2023.11.23-12.37.13:044][825]LogWorldPartition: Display: WorldPartition initialize took 7 ms (total: 692 ms)
+[2023.11.23-12.37.13:046][825]LogPlayLevel: PIE: World Init took: (0.069358s)
+[2023.11.23-12.37.13:059][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.23-12.37.13:062][825]LogTemp: [SrcRawData] Name: Pigeon17, ID: 17
+[2023.11.23-12.37.13:062][825]LogTemp: SavedDir: ../../../../../../Users/Home/Documents/Unreal_Projects/StudyProject/Saved
+[2023.11.23-12.37.13:062][825]LogTemp: Relative path for saved file: ../../../../../../Users/Home/Documents/Unreal_Projects/StudyProject/Saved/RawData.bin
+[2023.11.23-12.37.13:062][825]LogTemp: Absolute path for saved file: C:/Users/Home/Documents/Unreal_Projects/StudyProject/Saved/RawData.bin
+[2023.11.23-12.37.13:068][825]LogTemp: [DstRawData] Name: Pigeon17, ID: 17
+[2023.11.23-12.37.13:068][825]LogTemp: [SerializedPigeon] Name: Pigeon76, ID: 76
+[2023.11.23-12.37.13:077][825]LogTemp: [Pigeon77] Name: Pigeon76, ID: 76
+[2023.11.23-12.37.13:087][825]LogTemp: [Pigeon78] Name: Pigeon76, ID: 76
+[2023.11.23-12.37.13:090][825]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.11.23-12.37.13:092][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.23-12.37.13:092][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.23-12.37.13:092][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.23-12.37.13:093][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.23-12.37.13:093][825]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.23-12.37.13:093][825]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.23-12.37.13:093][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.23-12.37.13:093][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.23-12.37.13:095][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.23-12.37.13:095][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.23-12.37.13:095][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.23-12.37.13:104][825]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.23-12.37.13:185][825]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2023.11.23-12.37.13:188][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.23-12.37.13:188][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.23-12.37.13:189][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.23-12.37.13:194][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.11.23-12.37.13:194][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.11.23-12.37.13:197][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.11.23-12.37.13:197][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.11.23-12.37.13:198][825]LogInit: FAudioDevice initialized.
+[2023.11.23-12.37.13:198][825]LogAudio: Display: Audio Device (ID: 2) registered with world 'Example'.
+[2023.11.23-12.37.13:234][825]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.23-12.37.13:261][825]LogWorld: Bringing World /Game/StudyProject/Levels/UEDPIE_0_Example.Example up for play (max tick rate 0) at 2023.11.23-21.37.13
+[2023.11.23-12.37.13:265][825]LogWorld: Bringing up level for play took: 0.028287
+[2023.11.23-12.37.13:272][825]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.11.23-12.37.13:559][825]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2023.11.23-12.37.13:571][825]PIE: Server logged in
+[2023.11.23-12.37.13:573][825]PIE: Play in editor total start time 0.808 seconds.
+[2023.11.23-12.37.40:534][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.23-12.37.40:535][790]LogWorld: BeginTearingDown for /Game/StudyProject/Levels/UEDPIE_0_Example
+[2023.11.23-12.37.40:546][790]LogTemp: USGameInstance::Shutdown() has been called.
+[2023.11.23-12.37.40:546][790]LogWorld: UWorld::CleanupWorld for Example, bSessionEnded=true, bCleanupResources=true
+[2023.11.23-12.37.40:553][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.23-12.37.40:554][790]LogContentBundle: [Container: Example] Deleting container.
+[2023.11.23-12.37.40:649][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.23-12.37.40:656][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.23-12.37.40:683][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.23-12.37.40:686][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.23-12.37.40:691][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.23-12.37.40:731][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.11.23-12.37.40:759][791]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.11.23-12.39.36:764][164]LogDerivedDataCache: C:/Users/Home/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.984 and deleted 0 files with total size 0 MiB. Scanned 1441 files in 1441 folders with total size 25 MiB.
+[2023.11.23-12.57.45:524][426]LogHotReload: New module detected: UnrealEditor-StudyProject-0032.dll
+[2023.11.23-12.57.47:666][433]LogHotReload: Starting Hot-Reload from IDE
+[2023.11.23-12.57.48:087][433]LogUObjectHash: Compacting FUObjectHashTables data took  10.11ms
+[2023.11.23-12.57.48:480][433]LogTemp: USGameInstance::USGameInstance() has been called.
+[2023.11.23-12.57.48:930][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.11.23-12.57.49:082][433]Display: HotReload took  1.4s.
+[2023.11.23-12.57.49:083][433]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 scriptstruct unchanged, 1 function remapped, 1 scriptstruct remapped
+[2023.11.23-13.00.02:185][832]LogHotReload: New module detected: UnrealEditor-StudyProject-0033.dll
+[2023.11.23-13.00.03:853][838]LogHotReload: Starting Hot-Reload from IDE
+[2023.11.23-13.00.03:923][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.11.23-13.00.03:980][838]LogTemp: USGameInstance::USGameInstance() has been called.
+[2023.11.23-13.00.04:063][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.23-13.00.04:107][838]Display: HotReload took  0.3s.
+[2023.11.23-13.00.04:107][838]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 scriptstruct unchanged, 1 function remapped, 1 scriptstruct remapped
