@@ -5,6 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/StudyProject/Content/StudyProject/Animations/AnimationBluePrints/ABP_PlayerPawn.uasset",
+				"D:/StudyProject/Content/StudyProject/Characters/BP_PlayerPawn.uasset",
+				"D:/StudyProject/Content/StudyProject/Levels/Example.umap",
+				"D:/StudyProject/Content/StudyProject/Inputs/InputActions/IA_Move.uasset",
+				"D:/StudyProject/Content/StudyProject/Inputs/InputMappingContexts/IMC_PlayerCharacter.uasset",
+				"D:/StudyProject/Content/StudyProject/Inputs/InputConfigs/IC_PlayerCharacter.uasset",
+				"D:/StudyProject/Content/StudyProject/Characters/BP_ViewCharacter.uasset",
+				"D:/StudyProject/Content/StudyProject/Inputs/InputActions/IA_Look.uasset",
+				"D:/StudyProject/Content/Inputs/InputActions/IA_Move.uasset",
+				"D:/StudyProject/Content/Inputs/InputConfigs/IC_PlayerCharacter.uasset",
+				"D:/StudyProject/Content/Inputs/InputMappingContexts/IMC_PlayerCharacter.uasset",
 				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/Levels/Test.umap",
 				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
@@ -54,7 +65,17 @@
 				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/__ExternalObjects__/StudyProject/Levels/Example/A/84/HM90OEOCX5R4MC03XBWJIH.uasset",
 				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/__ExternalObjects__/StudyProject/Levels/Example/6/RA/RF3KZMOZA1TDKW8P9G9DWY.uasset",
 				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/__ExternalObjects__/StudyProject/Levels/Example/B/JV/VMHXWZMF1F9LV8W2X7ON77.uasset",
-				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/Levels/Example.umap"
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/Levels/Example.umap",
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/WorldStatics/BP_Torch.uasset",
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/Game/BP_GameMode.uasset",
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/__ExternalActors__/StudyProject/Levels/Example/C/IM/UMMDCO7SRFBY3H64XNRCY0.uasset",
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/Controllers/BP_PlayerController.uasset",
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/StudyProject/Characters/BP_PlayerPawn.uasset",
+				"D:/StudyProject/Content/__ExternalActors__/StudyProject/Levels/Example/8/KT/I2CBDB9NK8RG7OKJTKIZNQ.uasset",
+				"D:/StudyProject/Content/ThirdPerson/Input/Actions/IA_Look.uasset",
+				"D:/StudyProject/Content/ThirdPerson/Input/Actions/IA_Jump.uasset",
+				"D:/StudyProject/Content/ThirdPerson/Input/Actions/IA_Move.uasset",
+				"C:/Users/Home/Documents/Unreal_Projects/StudyProject/Content/__ExternalActors__/StudyProject/Levels/Example/0/4O/JPPM5J08UFU4PZSZC0J7VU.uasset"
 			]
 		}
 	]

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\splayerpawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\studyproject\\intermediate\\build\\win64\\studyprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\studyproject\\intermediate\\build\\win64\\unrealeditor\\development\\studyproject\\definitions.studyproject.h",
+            "d:\\studyproject\\source\\studyproject\\public\\characters\\splayerpawn.h",
+            "d:\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\splayerpawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\home\\documents\\unreal_projects\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\sgameinstance.gen.cpp",
+        "Source": "d:\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\sgameinstance.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\home\\documents\\unreal_projects\\studyproject\\intermediate\\build\\win64\\studyprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "d:\\studyproject\\intermediate\\build\\win64\\studyprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\home\\documents\\unreal_projects\\studyproject\\intermediate\\build\\win64\\unrealeditor\\development\\studyproject\\definitions.studyproject.h",
-            "c:\\users\\home\\documents\\unreal_projects\\studyproject\\source\\studyproject\\public\\game\\sgameinstance.h",
-            "c:\\users\\home\\documents\\unreal_projects\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\sgameinstance.generated.h"
+            "d:\\studyproject\\intermediate\\build\\win64\\unrealeditor\\development\\studyproject\\definitions.studyproject.h",
+            "d:\\studyproject\\source\\studyproject\\public\\game\\sgameinstance.h",
+            "d:\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\sgameinstance.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

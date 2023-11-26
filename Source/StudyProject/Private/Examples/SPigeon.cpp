@@ -9,7 +9,7 @@ USPigeon::USPigeon()
 }
 
 void USPigeon::Fly()
-{
+{ 
     UE_LOG(LogTemp, Log, TEXT("%s is now flying."), *Name);
 }
 

@@ -1,18 +1,19 @@
-﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" StudyProjectEditor Win64 Development -Project="C:\Users\Home\Documents\Unreal_Projects\StudyProject\StudyProject.uproject" -WaitMutex -FromMsBuild
+﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" StudyProjectEditor Win64 Development -Project="D:\StudyProject\StudyProject.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\Home\AppData\Local\UnrealBuildTool\Log.txt
-  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Home\Documents\Unreal_Projects\StudyProject).
+  Using 'git status' to determine working set for adaptive non-unity build (D:\StudyProject).
+  Waiting for 'git status' command to complete
+  Terminating git child process due to timeout
   Building StudyProjectEditor...
   Using Visual Studio 2022 14.37.32825 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from StudyProject unity file: SFlyable.cpp, SPigeon.cpp
+  [Adaptive Build] Excluded from StudyProject unity file: SCharacter.cpp, SPlayerPawn.cpp, SViewCharacter.cpp, SPlayerController.cpp, SPigeon.cpp, SGameMode.cpp, SInputConfigData.cpp, STorch.cpp
   Determining max actions to execute in parallel (2 physical cores, 4 logical cores)
     Executing up to 2 processes, one per physical core
-    Requested 1.5 GB free memory per action, 2.27 GB available: limiting max parallel actions to 1
-  Building 4 actions with 1 process...
-  [1/4] Compile SFlyable.cpp
-  [2/4] Link UnrealEditor-StudyProject-0033.dll
-     C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0033.suppressed.lib 라이브러리 및 C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0033.suppressed.exp 개체를 생성하고 있습니다.
-  [3/4] Link UnrealEditor-StudyProject-0033.lib
-     C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0033.lib 라이브러리 및 C:\Users\Home\Documents\Unreal_Projects\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0033.exp 개체를 생성하고 있습니다.
+  Building 4 actions with 2 processes...
+  [1/4] Compile SViewCharacter.cpp
+  [2/4] Link UnrealEditor-StudyProject-0070.lib
+     D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0070.lib 라이브러리 및 D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0070.exp 개체를 생성하고 있습니다.
+  [3/4] Link UnrealEditor-StudyProject-0070.dll
+     D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0070.suppressed.lib 라이브러리 및 D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject-0070.suppressed.exp 개체를 생성하고 있습니다.
   [4/4] WriteMetadata StudyProjectEditor.target
-  Total time in Parallel executor: 10.35 seconds
-  Total execution time: 12.21 seconds
+  Total time in Parallel executor: 5.58 seconds
+  Total execution time: 27.60 seconds
