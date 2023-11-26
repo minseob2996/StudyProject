@@ -25,7 +25,7 @@
 		<EngineModeEx>Dirty</EngineModeEx>
 		<DeploymentName />
 		<EngineVersion>5.1.1-23901901+++UE5+Release-5.1</EngineVersion>
-		<CommandLine>D:/StudyProject/StudyProject.uproject</CommandLine>
+		<CommandLine>CommandLineRemoved</CommandLine>
 		<LanguageLCID>0</LanguageLCID>
 		<AppDefaultLocale>ko-KR</AppDefaultLocale>
 		<BuildVersion>++UE5+Release-5.1-CL-23901901</BuildVersion>

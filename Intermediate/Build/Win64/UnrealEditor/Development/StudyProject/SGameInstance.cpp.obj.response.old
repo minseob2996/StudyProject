@@ -273,6 +273,9 @@ D:\StudyProject\Source\StudyProject\Private\Game\SGameInstance.cpp
 /I D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Inc\StudyProject\UHT
 /I D:\StudyProject\Source
 /I D:\StudyProject\Source\StudyProject\Public
+/I ..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT
+/I ..\Plugins\EnhancedInput\Source
+/I ..\Plugins\EnhancedInput\Source\EnhancedInput\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64

@@ -285,10 +285,7 @@ D:\StudyProject\Source\StudyProject\Private\Game\SGameInstance.cpp
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\StudyProject\Intermediate\Build\Win64\StudyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\Definitions.StudyProject.h"
-/Yu"D:\StudyProject\Intermediate\Build\Win64\StudyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\StudyProject\Intermediate\Build\Win64\StudyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/FI"D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\Definitions.h"
 /Fo"D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\SGameInstance.cpp.obj"
 /sourceDependencies D:\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\SGameInstance.cpp.dep.json
 /Zc:inline
